@@ -230,7 +230,7 @@
   }
 
     .timetable__line-start {
-    width: 64px;
+    height: 13px;
     padding-right: 45px;
     transform: rotate(90deg);
     justify-self: center;
@@ -238,7 +238,7 @@
   }
 
   .timetable__line-end {
-    width: 73px;
+    height: 13px;
     padding-left: 45px;
     transform: rotate(90deg);
     justify-self: center;

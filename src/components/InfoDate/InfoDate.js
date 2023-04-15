@@ -31,7 +31,7 @@ function InfoDate() {
           <img className="info-date__where" alt="торжественная регистрация" src={where}></img>
           <p className="info-date__text">Дворец Бракосочетаяния 1 <br /> Английская набережная, 28 <br />Начало в 15.30</p>
           <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A46d88a0009071250c064c30503a26d3cf6644cf299e1b141f328c94ae0a5180d&amp;source=constructor"
-           frameBorder="0" title="ЗАГС" className="info-date__map"></iframe>
+            frameBorder="0" title="ЗАГС" className="info-date__map"></iframe>
         </div>
         <div className="info-date__check-in">
           <img src={greenCloud2} alt="зеленое облако" className="info-date__cloud-two"></ img>

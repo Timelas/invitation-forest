@@ -110,6 +110,7 @@
   width: 800px;
   height: 350px;
   margin: 25px 0 100px;
+  border: 1px solid #305d41;
 }
 
 @media screen and (max-width: 1700px) {
@@ -272,7 +273,7 @@
 
   .info-date__who {
     width: 250px;
-    margin: 10px 0 20px;
+    margin: 25px 0 20px;
   }
 
   .info-date__text {

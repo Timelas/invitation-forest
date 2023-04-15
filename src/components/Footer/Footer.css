@@ -1,13 +1,22 @@
 .footer {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   margin: 0;
-  align-items: start;
-  justify-content: center;
+  align-items: center;
+  justify-content: start;
   gap: 50px;
   margin: 100px 0 0;
   position: relative;
   height: 900px;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  align-items: center;
+  justify-content: start;
+  width: 700px;
 }
 
 .footer__background {
@@ -22,13 +31,13 @@
 
 .footer__text {
   font-size: 30px;
-  margin: 200px 0 0;
+  margin: 50px 0 0;
 }
 
 .footer__names {
   height: 200px;
   object-fit: contain;
-  margin: 100px 0 0;
+  margin: 30px 0 0;
 }
 
 @media screen and (max-width: 1700px) {
@@ -46,12 +55,12 @@
 
   .footer__text {
     font-size: 24px;
-    margin: 120px 0 0;
+    margin: 40px 0 0;
   }
 
   .footer__names {
     height: 160px;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
   }
 }
 
@@ -69,12 +78,12 @@
 
   .footer__text {
     font-size: 20px;
-    margin: 90px 0 0;
+    margin: 10px 0 0;
   }
 
   .footer__names {
     height: 120px;
-    margin: 30px 0 0;
+    margin: 20px 0 0;
   }
 }
 
@@ -87,16 +96,16 @@
 
   .footer__background {
     top: -200px;
-    height: calc(100% + 200px);
+    height: calc(100% + 250px);
 }
 
   .footer__text {
     font-size: 16px;
-    margin: 40px 0 0;
+    margin: 0 0 0;
   }
 
   .footer__names {
     height: 90px;
-    margin: 0;
+    margin: 10px 0 0;
   }
 }
