@@ -79,7 +79,7 @@
   width: 550px;
   height: 55px;
   border-radius: 3.5px;
-  border: .5px solid #ad9a8780;
+  border: .5px solid #264f26;
   font-size: 30px;
   padding: 5px;
   box-sizing: border-box;
@@ -88,13 +88,13 @@
 .question__button {
   width: 300px;
   height: 50px;
-  background-color: #ad9a8780;
+  background-color: #264f26;
   font-size: 24px;
   border: none;
   align-self: center;
   border-radius: 3.5px;
   cursor: pointer;
-  color: black;
+  color: white;
   font-weight: 200;
 }
 
@@ -123,11 +123,11 @@
 }
 
 .question__unvisible:checked + .question__visible-radio {
-  background-color: #435dc5;
+  background-color: #264f26;
 }
 
 .question__unvisible:disabled + .question__visible-radio {
-  border: 1px solid #435dc5;
+  border: 1px solid #264f26;
   background-color: #fbf8ec;
 }
 
@@ -150,11 +150,11 @@
 }
 
 .question__unvisible:checked + .question__visible-checkbox {
-  background-color: #435dc5;
+  background-color: #264f26;
 }
 
 .question__unvisible:disabled + .question__visible-checkbox {
-  border: 1px solid #435dc5;
+  border: 1px solid #264f26;
   background-color: #fbf8ec;
 }
 
