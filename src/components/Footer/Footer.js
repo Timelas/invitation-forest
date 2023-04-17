@@ -1,5 +1,5 @@
 import React from "react";
-import names from "../../images/namesFooter.svg";
+import names from "../../images/namesV.svg";
 import background from "../../images/footer.png";
 import "./Footer.css";
 
