@@ -171,4 +171,8 @@
     width: 37px;
     height: 37px;
   }
+  
+  .dresscode__birds {
+    display: none;
+  }
 }
