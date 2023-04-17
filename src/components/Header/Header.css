@@ -187,6 +187,12 @@
   }
 }
 
+@media screen and (max-width: 450px) {
+  .header__background {
+    height: 100vh;
+  }
+}
+
 @media screen and (max-width: 380px) {
   .header__names {
     width: 270px;
